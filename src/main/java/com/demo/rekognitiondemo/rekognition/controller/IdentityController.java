@@ -7,8 +7,8 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 @RestController
-@RequestMapping("/api/v1/rekognition")
-public class RekognitionController {
+@RequestMapping("/identity")
+public class IdentityController {
 
     @Autowired
     private FaceComparasionService faceComparasionService;
